@@ -1,0 +1,112 @@
+body{
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+    display: grid;
+  }
+  #title{
+      justify-self: center;
+      font-size: 0.6rem;
+  }
+  #img-div
+  {
+      background: white;
+      padding: 13px;
+     
+  }
+  #image
+  {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  #img-caption{
+      text-align: center;
+      font-size: 1rem;
+  }
+  #tribute-info
+  {
+      padding: 1rem 0;
+      font-size: 1.5rem;
+      text-align: center;
+      color: rgb(148, 11, 52);
+  }
+  .year{
+      background: rgb(73, 61, 61);
+      color: white;
+      font-size: 1.3rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 0.5rem;
+      
+  }
+  .info{
+    
+      font-style: roboto;
+      font-size: 1.2rem;
+      text-align: center;
+      background: rgb(201, 208, 218);
+  }
+  #quote{
+      font-style: italic;
+      margin: 2.5rem;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+  .external_text
+  {
+      text-align: center;
+      font-style:  Segoe UI;
+  }
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  #owner
+  {
+      text-align: center;
+      
+  }
+  @media(min-width:40rem)
+  {
+      #title{
+          font-size: 1.2rem;
+      }
+      #column
+      {
+          display: grid;
+          grid-template-columns: 15% 30%;
+          row-gap: 2rem;
+          grid-auto-rows: minmax(2rem,auto);
+          justify-content: center;
+          align-self: center
+          
+      }
+      .year{
+          align-self: center;
+      }
+      .info{
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+      .info_head
+      {
+          font-size: 2rem;
+      }
+      #img-caption
+      {
+          font-size: 1.5rem;
+          font-style: s;
+      }
+  }
+
+  
